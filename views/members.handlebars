@@ -1,0 +1,62 @@
+    <div class="container-fluid">
+      <header>
+        <h1 id = "pageTitle">Get Stocked!</h1>
+      </header>
+      <div class="row">
+        <div class="col-lg-3">
+          <div class = "row">
+            <button id = "submit" class = "btn btn-dark">Submit</button>
+            <input
+              id = "input"
+              class="form-control"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="menu">
+            <ul class="list-group">
+              <div id = "companyBtns"></div>
+              <!-- <li class="list-group-item">Trending</li>
+              <li class="list-group-item">Your Stocks</li>
+              <li class="list-group-item">Random</li> -->
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="card">
+            
+            <div class="card-body">
+              <div style="width: 75%">
+                <canvas id="canvas"></canvas>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            
+            <div class="card-body">
+             
+                <p id = "companyName"></p>
+                <p id = "companySymbol"></p>
+                <p id = "companyType"></p>
+                <p id = "companyCurrency"></p>
+             
+            </div>
+          </div>
+        </div>
+        <div class = "col-lg-3">
+         <div class = "row">
+          <h2 id="savedBtns">saved buttons will go here</h2>
+         </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.28.0/moment.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src = "/js/members.js"></script>
+  
